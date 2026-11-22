@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "moduleResolution": "node",
+    "checkJs": false,
+    "baseUrl": ".",
+    "typeRoots": ["./types"],
+    "paths": {
+      "jquery": ["types/jquery/index.d.ts"],
+      "popper.js": ["types/popper.js/index.d.ts"],
+      "bootstrap": ["types/bootstrap/index.d.ts"]
+    }
+  },
+  "typeAcquisition": {
+    "enable": false
+  },
+  "exclude": [
+    "js/jquery.min.js",
+    "js/bootstrap.bundle.min.js"
+  ]
+}
